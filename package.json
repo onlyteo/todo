@@ -1,0 +1,16 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "ToDo App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Teo <onlyteo@live.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-auto-routes": "^2.2.0",
+    "pug": "^2.0.0-rc.4"
+  }
+}

@@ -1,0 +1,26 @@
+nav(class="navbar navbar-inverse")
+  div(class="container-fluid")
+    div(class="navbar-header")
+      button(type="button", class="navbar-toggle", data-toggle="collapse", data-target="#toggle-navbar")
+        span(class="icon-bar")
+        span(class="icon-bar")
+        span(class="icon-bar")
+
+      a(class="navbar-brand" href="/")
+        span(class="glyphicon glyphicon-ok")
+    
+    div(class="collapse navbar-collapse", id="toggle-navbar")
+      ul(class="nav navbar-nav")
+        li(class="active")
+          a(href="/") Home
+        li
+          a(href="/about") About
+      ul(class="nav navbar-nav navbar-right")
+        li
+          a(href="/signup")
+            span(class="glyphicon glyphicon-user")
+            span  Sign Up
+        li
+          a(href="/login")
+            span(class="glyphicon glyphicon-log-in")
+            span  Login
